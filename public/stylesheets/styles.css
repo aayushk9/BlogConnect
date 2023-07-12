@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletterForm{
+width: 500px;
+background-color: white;
+text-align: center;
+padding: 50px;
+}
+
+.newsletterForm h2{
+    font-size: 26px;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.newsletterForm p{
+  padding: 20px 0;
+  color: #999;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opcacity: 1;
+  color: rgb(51 65 85/ var(--tw-text-opcacity));
+  font-family: sans-serif;
+}
+
+.email-input{
+    width: 100%;
+    height: 46px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    background-color: #f4f4f4;
+    border: 1px solid #d4d4d4;
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 100%;
+    height: 46px;
+    border: 0;
+    background-color: #4763bf;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.top{
+    color: #4763bf;
+    margin-bottom: 0;
+}
+
+footer{
+    background: white;
+    font-size: 18px;
+    padding: 35px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+header{
+    background: #4763bf;
+    font-size: 18px;
+    padding: 35px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
