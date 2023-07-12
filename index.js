@@ -6,8 +6,9 @@ const mongoose = require("mongoose");
 const path = require("path");
 const { render } = require("ejs");
 const uri = process.env.MONGODB_URI;
+const port = process.env.PORT || 3000
 
-app.listen(3000, function(req, res) {
+app.listen(port, function(req, res) {
   console.log("Server is listening on port 3000");
 });
 
@@ -49,18 +50,14 @@ app.post("/", async(req, res) => {
    // checking if the subscriber/email already exists using findOne method
    (async() => {
      const existingSubscriber = await Subscriber.find({ email: email }).limit(1);
- 
-   if(existingSubscriber.length > 0){
-    res.render("exists.ejs")
-    // status 400
-   }
- 
-   // new subscriber subscribed and saving it to the database
-   const newSubscriber = new Subscriber({email});
-   await newSubscriber.save();
-   
-   // response sent that subscribed successfully
-   res.render("success.ejs");
+
+     if (existingSubscriber.length > 0) {
+      res.render("exists.ejs");
+    } else {
+      const newSubscriber = new Subscriber({ email });
+      await newSubscriber.save();
+      res.render("success.ejs");
+    }
  })();
   }
   catch(err){
@@ -68,8 +65,3 @@ app.post("/", async(req, res) => {
      res.status(500).json({message: 'An error occured'});
   }
  });
-
-
-
-
-
