@@ -20,7 +20,7 @@ mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
     app.listen(port, () => {
       console.log(`Server is listening on port ${port}`);
     });
-  })
+  })'
   .catch((error) => {
     console.log('Error connecting to MongoDB:', error);
   });
