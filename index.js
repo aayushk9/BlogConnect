@@ -46,26 +46,23 @@ app.get("/", function(req, res){
   res.render("index.ejs");
 })
 
-app.post("/", async(req, res) => {
-
+app.post("/", async (req, res) => {
   const email = req.body.email;
   console.log(email);
-  
-  try{
-   // checking if the subscriber/email already exists using findOne method
-   (async() => {
-     const existingSubscriber = await Subscriber.findOne({ email});
 
-     if ( existingSubscriber) {
+  try {
+    // Checking if the subscriber already exists using findOne method
+    const existingSubscriber = await Subscriber.findOne({ email });
+
+    if (existingSubscriber) {
       res.render("exists.ejs");
     } else {
       const newSubscriber = new Subscriber({ email });
       await newSubscriber.save();
       res.render("success.ejs");
     }
+  } catch (err) {
+    console.log("Database error", err);
+    res.status(500).json({ message: 'An error occurred' });
   }
-  catch(err){
-     console.log("Database error", err);
-     res.status(500).json({message: 'An error occured'});
-  }
- });
+});
