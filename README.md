@@ -4,8 +4,8 @@
 
 # BlogConnect
 
-Welcome to the newsletter backend app. This repository contains Backend and frontend code for newsletter application. This application is designed to handle the distribution of newsletter.
-When users will Subscribe to newsletter they will recieve my Hashnode blogs to their inbox.
+Welcome to the BlogConnect backend app. This repository contains Backend and frontend code for newsletter application. This application is designed to handle the distribution of newsletter.
+When a user will Subscribe to BlogConnect they will recieve my Hashnode blogs to their inbox. 
 
 
 ## Features
