@@ -13,12 +13,17 @@ app.listen(port, function(req, res) {
 });
 
 // connection to the database
-mongoose.
-connect(uri).then(() =>{
-   console.log("MongoDB Connected");
-}).catch((error) => {
-  console.log(error);
-}) 
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => {
+    console.log('MongoDB Connected');
+    // Start the server after successful MongoDB connection
+    app.listen(port, () => {
+      console.log(`Server is listening on port ${port}`);
+    });
+  })
+  .catch((error) => {
+    console.log('Error connecting to MongoDB:', error);
+  });
 
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
