@@ -44,13 +44,6 @@ When users will Subscribe to newsletter they will recieve my Hashnode blogs to t
 ```bash
         npm Install
  ```
-    3) Create a .env file in the project root and add the following environment variables:
-
-```bash
-        PORT=3000
-        MONGODB_URI=<your-mongodb-connection-string>
-        JWT_SECRET=<your-jwt-secret-key>
-```
 
 
     
