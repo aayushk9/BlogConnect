@@ -51,7 +51,7 @@ app.post("/", async(req, res) => {
    (async() => {
      const existingSubscriber = await Subscriber.findOne({ email});
 
-     if ( existingSubscriber || existingSubscriber.length > 0) {
+     if ( existingSubscriber) {
       res.render("exists.ejs");
     } else {
       const newSubscriber = new Subscriber({ email });
