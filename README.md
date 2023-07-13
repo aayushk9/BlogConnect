@@ -86,7 +86,7 @@ Answer 2: Yes
 
 Question 3: Can we expect some future improvements?
 
-Answer 3: Absolutely! We are constantly striving to improve and enhance our BlogConnect newsletter to provide an even better experience for our subscribers. Currently we are working to improved design and layout.
+Answer 3: Absolutely! We are constantly striving to improve and enhance our BlogConnect newsletter to provide an even better experience for our subscribers. Currently we are working to improve design and layout.
 
 
 ## Feedback
