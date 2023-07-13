@@ -49,16 +49,15 @@ app.post("/", async(req, res) => {
   try{
    // checking if the subscriber/email already exists using findOne method
    (async() => {
-     const existingSubscriber = await Subscriber.find({ email: email }).limit(1);
+     const existingSubscriber = await Subscriber.findOne({ email});
 
-     if (existingSubscriber.length > 0) {
+     if ( existingSubscriber || existingSubscriber.length > 0) {
       res.render("exists.ejs");
     } else {
       const newSubscriber = new Subscriber({ email });
       await newSubscriber.save();
       res.render("success.ejs");
     }
- })();
   }
   catch(err){
      console.log("Database error", err);
