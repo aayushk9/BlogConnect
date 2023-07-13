@@ -72,5 +72,19 @@ This project is licensed under the [ISC](https://fossa.com/blog/open-source-soft
 
 Demo website : https://blogconnect.onrender.com
 
+## FAQ
+
+Question 1: How often will I receive the Blog?
+
+Answer 1: You will recieve Hashnode blogs every weekend directly to your inbox.
+
+Question 2: Is my personal information safe and secure?
+
+Answer 2: Yes
+
+Question 3: Can we expect some future improvements?
+
+Answer: Absolutely! We are constantly striving to improve and enhance our BlogConnect newsletter to provide an even better experience for our subscribers. Currently we are working to improved design and layout.
+
 
 
