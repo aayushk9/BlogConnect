@@ -6,10 +6,10 @@ const mongoose = require("mongoose");
 const path = require("path");
 const { render } = require("ejs");
 const uri = process.env.MONGODB_URI;
-const port = process.env.PORT || 3306;
+const port = process.env.PORT || 5000;
 
 app.listen(port, function(req, res) {
-  console.log("Server is listening on port 3000");
+  console.log("Server is listening on port 5000");
 });
 
 // connection to the database
