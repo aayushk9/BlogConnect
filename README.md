@@ -1,5 +1,5 @@
 
-![Logo](https://th.bing.com/th/id/OIP.VO3VBxG_3jAKrKu7zHjshwHaCG?w=343&h=99&c=7&r=0&o=5&dpr=1.3&pid=1.7)
+![Logo](https://th.bing.com/th/id/OIP.TaJKUtzWmFGnUsVJzwlqmAAAAA?pid=ImgDet&w=200&h=200&rs=1)
 
 
 # BlogConnect
@@ -56,7 +56,7 @@ To run the application, execute the following command:
          npm start
 ```
 
-The server will start running on localhost 3000.
+The server will start running on localhost.
 ## License
 
 [ISC](https://fossa.com/blog/open-source-software-licenses-101-isc-license/)
