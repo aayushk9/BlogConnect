@@ -70,8 +70,6 @@ This project is licensed under the [ISC](https://fossa.com/blog/open-source-soft
 
 ![App Screenshot](https://t4.ftcdn.net/jpg/01/52/40/77/240_F_152407752_7AnelPYDABZ9XY7qbGFJY6ggueUkpslm.jpg)
 
-Demo website : https://blogconnect.onrender.com
-
 ## FAQ
 
 Question 1: How often will I receive the Blog?
