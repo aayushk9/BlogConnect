@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: bl-11ja
-    buildCommand: npm start
-    timeout: 600
-    env:
-      - key: PORT
-        value: "5000"
