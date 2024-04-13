@@ -18,6 +18,7 @@ When a user will Subscribe to BlogConnect they will recieve my Hashnode blogs to
 ## Getting Started
 
  To get started with the project, follow the steps below:
+ 
 ## Prerequisites
 
     1) Node.js (v14 or higher)
@@ -33,19 +34,16 @@ When a user will Subscribe to BlogConnect they will recieve my Hashnode blogs to
 
 ## Installation
 
-    1) Clone this repository to your local machine
+1) Clone this repository to your local machine and install required dependencies
 
 ```bash
-       git clone https://github.com/aayushk9/BlogConnect
-       cd BlogConnect
+git clone https://github.com/aayushk9/BlogConnect
+cd BlogConnect
 ```
-    2) Install the dependencies
 
 ```bash
-        npm Install
+npm Install
  ```
-
-
     
 ## Run Locally
 
@@ -53,17 +51,13 @@ To run the application, execute the following command:
 
 
 ```bash
-         npm start
+npm start
 ```
 
 The server will start running on localhost.
 ## License
 
-[ISC](https://fossa.com/blog/open-source-software-licenses-101-isc-license/)
-
 This project is licensed under the [ISC](https://fossa.com/blog/open-source-software-licenses-101-isc-license/) License.
-
-
 
 
 ## 
