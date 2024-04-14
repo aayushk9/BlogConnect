@@ -21,15 +21,15 @@ When a user will Subscribe to BlogConnect they will recieve my Hashnode blogs to
  
 ## Prerequisites
 
-    1) Node.js (v14 or higher)
+ 1) Node.js (v14 or higher)
 
-    2) MongoDB
+ 2) MongoDB
 
-    3) Express
+ 3) Express
 
-    4) Mongoose
+ 4) Mongoose
 
-    5) EJS
+ 5) EJS
 
 
 ## Installation
